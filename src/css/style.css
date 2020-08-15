@@ -4,19 +4,27 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
+/* Index Section */
+
 #aboutMe {
   display: flex;
   justify-content: center;
 }
 
-.container-md {
+#aboutMe .container-md {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
   display: inline;
   background-color: #abcabc;
   margin: 30px;
   padding: 20px;
 }
 
-.profilePic {
+#aboutMe .profilePic {
   float: left;
   border: 1px solid black;
   border-radius: 20%;
@@ -24,9 +32,55 @@
   margin-right: 25px;
 }
 
-.aboutMeHeader {
+#aboutMe .aboutMeHeader {
   color: #ffffff;
   font-size: 35px;
   border-bottom: 2px dotted white;
   margin-bottom: 25px;
+}
+
+/* Education Section */
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
+#resume .container-md {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  background-color: #abcabc;
+  margin: 30px;
+  padding: 20px;
+}
+
+#resume .resumeHeader {
+  color: #ffffff;
+  font-size: 35px;
+  border-bottom: 2px dotted white;
+  margin-bottom: 25px;
+}
+
+#resume .educationTitle,
+#resume .workExprienceTitle {
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+#resume .workExprience {
+  padding-top: 30px;
+}
+
+#resume .educationHeader,
+#resume .workExprienceHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+#resume .educationHeaderAdd,
+#resume .workExprienceHeaderAdd {
+  text-align: right;
 }
