@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#aboutMe {
+  display: flex;
+  justify-content: center;
+}
+
+.container-md {
+  display: inline;
+  background-color: #abcabc;
+  margin: 30px;
+  padding: 20px;
+}
+
+.profilePic {
+  float: left;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin: 10px;
+  margin-right: 25px;
+}
+
+.aboutMeHeader {
+  color: #ffffff;
+  font-size: 35px;
+  border-bottom: 2px dotted white;
+  margin-bottom: 25px;
+}
