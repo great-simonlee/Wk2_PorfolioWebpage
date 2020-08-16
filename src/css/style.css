@@ -111,7 +111,7 @@ li {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 0.5s;
   background-color: #abcabc;
 }
 
@@ -129,4 +129,44 @@ li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Conatct Section */
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .container-md {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  background-color: #abcabc;
+  margin: 30px;
+  padding: 20px;
+}
+
+#contact .contactHeader {
+  color: #ffffff;
+  font-size: 35px;
+  border-bottom: 2px dotted white;
+  margin-bottom: 25px;
+}
+
+#contact #contactInputBox {
+  text-align: center;
+}
+
+#contact #contactInputBox > * {
+  margin: 8px 0px;
+}
+
+#contact #contactInputBox > input {
+  width: 250px;
+}
+
+#contact #contactInputBox > textarea {
+  width: 250px;
+  height: 300px;
 }
