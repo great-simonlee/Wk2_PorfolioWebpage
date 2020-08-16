@@ -39,7 +39,7 @@ li {
   margin-bottom: 25px;
 }
 
-/* Education Section */
+/* Resume Section */
 #resume {
   display: flex;
   justify-content: center;
@@ -83,4 +83,50 @@ li {
 #resume .educationHeaderAdd,
 #resume .workExprienceHeaderAdd {
   text-align: right;
+}
+
+/* Portfolio Section */
+#portfolio .col-sm {
+  position: relative;
+  text-align: center;
+  background-color: #abcabc;
+  margin-top: 30px;
+}
+
+#portfolio img {
+  position: block;
+  height: 350px;
+  width: 350px;
+  margin: 25px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+#portfolio .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #abcabc;
+}
+
+#portfolio .col-sm:hover .overlay {
+  opacity: 90%;
+}
+
+#portfolio .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
